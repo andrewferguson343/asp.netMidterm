@@ -1,0 +1,111 @@
+﻿body{  
+  margin:auto;
+  margin-right:auto;
+  margin-left:auto;
+  width: 80%;
+  max-width:1000px;  
+}
+.selected{
+  color: black;
+}
+.navLink{
+  color:gray;
+}
+.header {
+  background-repeat: no-repeat;
+  height : 175px;
+}
+  .header p{  
+    margin-right: 50px;
+    font-size: 40px;
+    font-weight:bold;
+  }
+#navList{
+  width: 90%;
+  margin-left : 50px;
+  text-align:center;
+  border-bottom: 1px solid lightgray;
+}
+  #navList li{
+    list-style: none;
+    width: 150px;
+    display:inline-block;
+  }
+    #navList li a{
+      text-decoration: none;
+    }
+
+      #navList li a:hover{
+        color: black;
+        transition: 1s;
+      }
+
+.homeDescription{
+  width: 90%;
+  margin-top: 70px;
+}
+
+#sidebarContent{
+  display: inline-block;
+  width: 30%;
+}
+
+.content{
+  display: inline-block;
+  width: 60%;
+  margin-right: 30px;
+}
+.imageContainer{
+  display: inline-flex;  
+}
+.imageContainer img{
+  width: 200px;
+  height: 200px;
+}
+.pageTitle{
+  display:inline-flex;
+  float:right;
+  margin-top:50px;
+}
+
+#eventsTable{
+  text-align: center;
+  margin: auto;
+  border:1px solid black;
+  width:75%;
+  border-collapse: collapse;
+}
+
+#eventsTable tbody tr:nth-child(even) td{
+  background-color: #efefef;
+  border-collapse: collapse; 
+}
+
+#hoursList {
+  list-style:none;
+  width:100%;
+}
+
+  #hoursList li{
+    margin-bottom: 10px;
+  }
+ 
+    #hoursList li span{
+      margin-right:10px;
+      min-width:55px;
+      display:inline-block;
+    }
+#bookCoverContainer {
+  width:90%;
+  margin:auto;
+}
+.bookCover {
+  width:30%;
+  display: inline-block;
+  margin: 15px;
+  display:none;
+}
+.bookCover img{
+  height: 220px !important;
+  width: 170px !important;
+}

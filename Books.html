@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <link href="midtermStyle.css" rel="stylesheet" />
+      <script src="web.js"></script>
+      <title>library</title>
+  </head>
+  <body onload="initializeBookView();">
+     <div class="header">
+      <div style="display:inline-block;" class="imageContainer">  
+        <img src="bookBackground.jpg">
+        <div style="display:inline-block" class="pageTitle">
+          <p>Ferguson Public Library</p>
+        </div>
+      </div> 
+    </div>
+    <div style="display:block;" class="navList">
+      <ul id="navList">
+        <li><a class="navLink" href="library.html">Home</a></li>
+        <li><a class="selected" href="Books.html">Books</a></li>
+        <li><a class="navLink" href="Events.html">Events</a></li>
+        <li><a class="navLink" href="reseve.html">Reserve</a></li>
+      </ul>
+    </div>
+    <label for="genreFilter">Filter</label>
+    <form id="searchForm">
+      <select id="genreFilter" onchange="filterBooks();">
+        <option value="bookCover">All</option>
+        <option value="ScienceFiction">Science Fiction</option>
+        <option value="nonFiction">Non-fiction</option>
+        <option value="autobiography">Autobiography</option>
+        <option value="Fantasy">Fantasy</option> 
+      </select>
+    </form>
+    <div class="bookCoverContainer">
+      <div class="bookCover ScienceFiction">
+        <img class="" src="bookCovers/1984Cover.jpg" />
+      </div>
+      <div class="bookCover ScienceFiction">
+        <img src="bookCovers/hitchhikersCover.jpg" />
+      </div>
+      <div class="bookCover ScienceFiction">
+        <img src="bookCovers/hyperionCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/ringsCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+      <div class="bookCover Fantasy">
+        <img src="bookCovers/thronesCover.jpg" />
+      </div>
+
+
+
+    </div>
+  </body>
+</html>
