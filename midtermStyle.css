@@ -2,8 +2,13 @@
   margin:auto;
   margin-right:auto;
   margin-left:auto;
-  width: 80%;
-  max-width:1000px;  
+  width: 85%;
+  max-width:1000px;
+ 
+}
+#content{
+    
+    height : 100%;
 }
 .selected{
   color: black;
@@ -12,8 +17,8 @@
   color:gray;
 }
 .header {
-  background-repeat: no-repeat;
-  height : 175px;
+  margin-top: 50px;
+  height : 125px;
 }
   .header p{  
     margin-right: 50px;
@@ -23,6 +28,7 @@
 #navList{
   width: 90%;
   margin-left : 50px;
+  margin-top : 50px;
   text-align:center;
   border-bottom: 1px solid lightgray;
 }
@@ -40,6 +46,9 @@
         transition: 1s;
       }
 
+#hoursHeader{
+    text-align: center;
+}
 .homeDescription{
   width: 90%;
   margin-top: 70px;
