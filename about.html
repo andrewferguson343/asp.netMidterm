@@ -24,34 +24,35 @@
     </ul>
   </div>
   <div class="RegisterFormContainer">
+    <p style="text-align:center; font-size:18px;"><b>Library Card Application</b></p>
     <div id="success"><p></p></div>
     <form id="registerForm">
       <div id="fail"><p id="errorMessage"></p></div>
-      <label for="registerForm-FirstName">First Name:</label>
+      <label for="registerForm-FirstName">First Name:*</label>
       <input id="registerForm-FirstName" />
 
-      <label for="registerForm-LastName">Last Name:</label>
+      <label for="registerForm-LastName">Last Name:*</label>
       <input id="registerForm-LastName" />
 
       <label for="registerForm-MiddleInitial">Middle Initial:</label>
       <input id="registerForm-MiddleInitial" />
 
-      <label for="registerForm-AddressLine1">AddressLine1:</label>
+      <label for="registerForm-AddressLine1">AddressLine1:*</label>
       <input id="registerForm-AddressLine1" />
 
       <label for="registerForm-AddressLine2">AddressLine2:</label>
       <input id="registerForm-AddressLine2" />
 
-      <label for="registerForm-City">City:</label>
+      <label for="registerForm-City">City:*</label>
       <input id="registerForm-City" />
 
-      <label for="registerForm-State">State:</label>
+      <label for="registerForm-State">State:*</label>
       <input id="registerForm-State" />
 
-      <label for="registerForm-Zip">Zip:</label>
+      <label for="registerForm-Zip">Zip:*</label>
       <input id="registerForm-Zip" />
 
-      <button type="button" onclick="validateRegistrationForm();">Submit form</button>
+      <button type="button" id="submitButton" onclick="validateRegistrationForm();">Submit form</button>
     </form>
   </div>
 </body>

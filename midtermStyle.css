@@ -101,19 +101,18 @@
       min-width:55px;
       display:inline-block;
     }
-#bookCoverContainer {
+.bookCoverContainer {
   width:90%;
   margin:auto;
 }
 .bookCover {
-  width:30%;
   display: inline-block;
   margin: 15px;
   display:none;
 }
 .bookCover img{
-  height: 220px !important;
-  width: 170px !important;
+  height: 250px !important;
+  width: 175px !important;
 }
 
 #registrationFormContainer{
@@ -148,3 +147,13 @@
     text-align:center;
     display:none;
   }
+
+#submitButton{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: right;
+}
+
+#genreFilter, #genreLabel{
+  margin-left: 65px;
+}
