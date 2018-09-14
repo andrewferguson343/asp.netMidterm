@@ -1,13 +1,11 @@
-﻿body{  
+﻿body{
   margin:auto;
   margin-right:auto;
   margin-left:auto;
   width: 85%;
   max-width:1000px;
- 
 }
 #content{
-    
     height : 100%;
 }
 .selected{
@@ -20,7 +18,7 @@
   margin-top: 50px;
   height : 125px;
 }
-  .header p{  
+  .header p{
     margin-right: 50px;
     font-size: 40px;
     font-weight:bold;
@@ -40,7 +38,6 @@
     #navList li a{
       text-decoration: none;
     }
-
       #navList li a:hover{
         color: black;
         transition: 1s;
@@ -65,7 +62,7 @@
   margin-right: 30px;
 }
 .imageContainer{
-  display: inline-flex;  
+  display: inline-flex;
 }
 .imageContainer img{
   width: 200px;
@@ -87,7 +84,7 @@
 
 #eventsTable tbody tr:nth-child(even) td{
   background-color: #efefef;
-  border-collapse: collapse; 
+  border-collapse: collapse;
 }
 
 #hoursList {
@@ -98,7 +95,7 @@
   #hoursList li{
     margin-bottom: 10px;
   }
- 
+
     #hoursList li span{
       margin-right:10px;
       min-width:55px;
@@ -118,3 +115,36 @@
   height: 220px !important;
   width: 170px !important;
 }
+
+#registrationFormContainer{
+  height: 100%;
+}
+
+#registerForm{
+  padding-bottom:50px;
+  padding-top: 30px;
+  height:100%;
+  width: 50%;
+  margin: auto;
+}
+
+  #registerForm input{   
+    width: 70%;
+    display: inline-block;
+    margin: auto;
+  }
+
+  #registerForm label {
+    width: 20%;
+    padding-top: 20px;
+    display: inline-block;
+    margin: auto;
+  }
+
+  #fail{
+    width: 100%;
+    margin: auto;
+    border: 1px solid tomato;
+    text-align:center;
+    display:none;
+  }
