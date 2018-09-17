@@ -102,7 +102,7 @@
       display:inline-block;
     }
 .bookCoverContainer {
-  width:90%;
+  width:95%;
   margin:auto;
 }
 .bookCover {
@@ -111,8 +111,8 @@
   display:none;
 }
 .bookCover img{
-  height: 250px !important;
-  width: 175px !important;
+  height: 275px !important;
+  width: 200px !important;
 }
 
 #registrationFormContainer{
